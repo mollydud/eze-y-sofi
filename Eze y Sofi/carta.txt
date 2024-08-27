@@ -2,37 +2,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenida</title>
+    <title>Eze y Sofi</title>
     <style>
         body {
-            background-color: #FFFFFF;
+            background-color: #f8f8f8;
+        }
+
+        .contenedor {
             display: flex;
             justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
+            align-items: flex-start;
+            margin-top: 20px;
         }
-        .gif-container {
-            text-align: center;
+
+        .imagen-audio {
+            max-width: 300px;
+            margin-right: 20px;
         }
-        .gif-container img {
-            cursor: pointer;
-            width: 150px;
-        }
-        .gif-container .text {
-            margin-top: 10px;
-            font-size: 18px;
+
+        .mensaje {
+            font-size: 14px;
+            color: #141414;
+            text-align: justify;
+            max-width: 600px;
         }
     </style>
 </head>
 <body>
-    <div class="gif-container">
-        <a href="carta.html">
-            <img src="https://mollydud.github.io/eze-y-sofi/corazón.gif" alt="Tap tap!">
-        </a>
-        <div class="text">
-            <b><u>tap tap!</u></b>
+    <center>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <b><font size="6" color="#141414" face="Times New Roman">¡Feliz aniversario!</font></b>
+        <hr width="20%" align="center" size="4">
+        <font size="3" color="#c7c7c7">Por nuestro tercer año juntos</font>
+        <br>
+        <br>
+    </center>
+
+    <div class="contenedor">
+        <div class="imagen-audio">
+            <img src="https://mollydud.github.io/eze-y-sofi/dibujito.png" width="300" height="300">
+            <br>
+            <audio controls style="width: 300px; margin-top: 20px;">
+                <source src="https://mollydud.github.io/eze-y-sofi/Magic%20City.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="mensaje">
+            <b><span class="titulo">🌷 <u>Al futuro programador:</u></span></b>
+            <br>
+            <br>
+            Si alguna vez dudás de cuánto te amo entrá a esta página, y recordá que aprendí a programar un poco solo por vos.
+            Quizá no sea la mejor, ni la más linda, pero la intención está (?).
+            <br>
+            <br>
+            No sé cómo explicar en palabras lo mucho que te aprecio y lo orgullosa que estoy de vos, y de nosotros como pareja. Pasamos de discutir siempre por cualquier pequeñez a tener una actitud más madura y sana ante el conflicto, nos manejamos mejor, pero nada de eso hubiese pasado sin tu interminable paciencia que tanto admiro. No me canso de decirlo, y es que realmente agradezco cada día que paso a tu lado sea corto o largo; si no estuvieses, siendo totalmente exagerada, no sé qué sería de mí. Quiero decir, me hacés sentir completa, como si no tuviese ningún otra preocupación en la vida más que hacerte feliz, e impulsás a que quiera seguir mejorando cada vez más.
+            <br>
+            Espero seguir viviendo muchas más aventuras a tu lado, crecer y aprender juntos y, algún día, ser la familia que tanto merecemos tener.
+            <br>
+            <br>
+            Te amo con todo mi corazón.
+            <img src="https://mollydud.github.io/eze-y-sofi/separador%201.gif" width="250" height="14">
         </div>
     </div>
 </body>
