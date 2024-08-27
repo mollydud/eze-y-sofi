@@ -1,0 +1,38 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenida</title>
+    <meta http-equiv="refresh" content="5;url=carta.html"> <!-- Redirige después de 5 segundos -->
+    <style>
+        body {
+            background-color: #FFFFFF;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .gif-container {
+            text-align: center;
+        }
+        .gif-container img {
+            cursor: pointer;
+            width: 150px;
+        }
+        .gif-container .text {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="gif-container">
+        <img src="https://mollydud.github.io/eze-y-sofi/corazón.gif" alt="Tap tap!" onclick="window.location.href='carta.html'">
+        <div class="text">
+            <b><u>tap tap!</u></b>
+        </div>
+    </div>
+</body>
+</html>
